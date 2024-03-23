@@ -86,7 +86,7 @@ def rename(fileName):
     fileName = re.sub(r'[\r\n]+', "_", fileName)
     return fileName
  
- 
+
 def main():
     while 1 == 1:
         urlkey = str(input("请输入知乎链接："))
